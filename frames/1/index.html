@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <link type="text/css" rel="stylesheet" href="stylesheet/stylesheet.css" />
+    <title>Chess</title>
+</head>
+
+<body>
+  <div id="sidebar">
+     <message>
+        <div id="wTurn" class="turn">White's Turn</div>
+        <div id="bTurn" class="turn hidden">Black's Turn</div>
+    </message>
+      <turn></turn>
+      <piecesTaken>
+          <white>
+          </white>
+          <black>
+          </black>
+      </piecesTaken>
+  </div>
+       <div id="board">
+        <div class="square wt" onclick="clicked(1, 'a')" id="a1"></div>
+        <div class="square bk" onclick="clicked(2, 'a')" id="a2"></div>
+        <div class="square wt" onclick="clicked(3, 'a')" id="a3"></div>
+        <div class="square bk" onclick="clicked(4, 'a')" id="a4"></div>
+        <div class="square wt" onclick="clicked(5, 'a')" id="a5"></div>
+        <div class="square bk" onclick="clicked(6, 'a')" id="a6"></div>
+        <div class="square wt" onclick="clicked(7, 'a')" id="a7"></div>
+        <div class="square bk" onclick="clicked(8, 'a')" id="a8"></div>
+        <div class="square bk" onclick="clicked(1, 'b')" id="b1"></div>
+        <div class="square wt" onclick="clicked(2, 'b')" id="b2"></div>
+        <div class="square bk" onclick="clicked(3, 'b')" id="b3"></div>
+        <div class="square wt" onclick="clicked(4, 'b')" id="b4"></div>
+        <div class="square bk" onclick="clicked(5, 'b')" id="b5"></div>
+        <div class="square wt" onclick="clicked(6, 'b')" id="b6"></div>
+        <div class="square bk" onclick="clicked(7, 'b')" id="b7"></div>
+        <div class="square wt" onclick="clicked(8, 'b')" id="b8"></div>
+        <div class="square wt" onclick="clicked(1, 'c')" id="c1"></div>
+        <div class="square bk" onclick="clicked(2, 'c')" id="c2"></div>
+        <div class="square wt" onclick="clicked(3, 'c')" id="c3"></div>
+        <div class="square bk" onclick="clicked(4, 'c')" id="c4"></div>
+        <div class="square wt" onclick="clicked(5, 'c')" id="c5"></div>
+        <div class="square bk" onclick="clicked(6, 'c')" id="c6"></div>
+        <div class="square wt" onclick="clicked(7, 'c')" id="c7"></div>
+        <div class="square bk" onclick="clicked(8, 'c')" id="c8"></div>
+        <div class="square bk" onclick="clicked(1, 'd')" id="d1"></div>
+        <div class="square wt" onclick="clicked(2, 'd')" id="d2"></div>
+        <div class="square bk" onclick="clicked(3, 'd')" id="d3"></div>
+        <div class="square wt" onclick="clicked(4, 'd')" id="d4"></div>
+        <div class="square bk" onclick="clicked(5, 'd')" id="d5"></div>
+        <div class="square wt" onclick="clicked(6, 'd')" id="d6"></div>
+        <div class="square bk" onclick="clicked(7, 'd')" id="d7"></div>
+        <div class="square wt" onclick="clicked(8, 'd')" id="d8"></div>
+        <div class="square wt" onclick="clicked(1, 'e')" id="e1"></div>
+        <div class="square bk" onclick="clicked(2, 'e')" id="e2"></div>
+        <div class="square wt" onclick="clicked(3, 'e')" id="e3"></div>
+        <div class="square bk" onclick="clicked(4, 'e')" id="e4"></div>
+        <div class="square wt" onclick="clicked(5, 'e')" id="e5"></div>
+        <div class="square bk" onclick="clicked(6, 'e')" id="e6"></div>
+        <div class="square wt" onclick="clicked(7, 'e')" id="e7"></div>
+        <div class="square bk" onclick="clicked(8, 'e')" id="e8"></div>
+        <div class="square bk" onclick="clicked(1, 'f')" id="f1"></div>
+        <div class="square wt" onclick="clicked(2, 'f')" id="f2"></div>
+        <div class="square bk" onclick="clicked(3, 'f')" id="f3"></div>
+        <div class="square wt" onclick="clicked(4, 'f')" id="f4"></div>
+        <div class="square bk" onclick="clicked(5, 'f')" id="f5"></div>
+        <div class="square wt" onclick="clicked(6, 'f')" id="f6"></div>
+        <div class="square bk" onclick="clicked(7, 'f')" id="f7"></div>
+        <div class="square wt" onclick="clicked(8, 'f')" id="f8"></div>
+        <div class="square wt" onclick="clicked(1, 'g')" id="g1"></div>
+        <div class="square bk" onclick="clicked(2, 'g')" id="g2"></div>
+        <div class="square wt" onclick="clicked(3, 'g')" id="g3"></div>
+        <div class="square bk" onclick="clicked(4, 'g')" id="g4"></div>
+        <div class="square wt" onclick="clicked(5, 'g')" id="g5"></div>
+        <div class="square bk" onclick="clicked(6, 'g')" id="g6"></div>
+        <div class="square wt" onclick="clicked(7, 'g')" id="g7"></div>
+        <div class="square bk" onclick="clicked(8, 'g')" id="g8"></div>
+        <div class="square bk" onclick="clicked(1, 'h')" id="h1"></div>
+        <div class="square wt" onclick="clicked(2, 'h')" id="h2"></div>
+        <div class="square bk" onclick="clicked(3, 'h')" id="h3"></div>
+        <div class="square wt" onclick="clicked(4, 'h')" id="h4"></div>
+        <div class="square bk" onclick="clicked(5, 'h')" id="h5"></div>
+        <div class="square wt" onclick="clicked(6, 'h')" id="h6"></div>
+        <div class="square bk" onclick="clicked(7, 'h')" id="h7"></div>
+        <div class="square wt" onclick="clicked(8, 'h')" id="h8"></div>
+    </div>
+</body>
+<script src="scripts/chess.js"></script>
+</html>

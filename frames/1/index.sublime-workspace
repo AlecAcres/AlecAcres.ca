@@ -1,0 +1,310 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"margin",
+				"margin-bottom"
+			],
+			[
+				"get",
+				"getElementById"
+			],
+			[
+				"legal",
+				"legalPath"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 112.0,
+		"last_filter": "install",
+		"selected_items":
+		[
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"user",
+				"Preferences: Settings - User"
+			],
+			[
+				"install ",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 450.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"user",
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Users/Alec/Web/Showcase/Beans.png",
+		"/C/Users/Alec/Web/Showcase/Showcase.html",
+		"/C/Users/Alec/Web/AlecAcres.ca/css/stylesheet.css",
+		"/C/Users/Alec/Web/AlecAcres.ca/index.html",
+		"/C/Users/Alec/Web/AlecAcres.jpg",
+		"/C/Users/Alec/Pebble/app.js",
+		"/C/Users/Alec/Web/AlecAcres.ca/frames/1/index.html",
+		"/C/Users/Alec/Web/AlecAcres.ca/frames/1/stylesheet/stylesheet.css",
+		"/C/Users/Alec/Web/AlecAcres.ca/frames/1/scripts/chess.js",
+		"/C/Users/Alec/Web/AlecAcres.ca/js/bootstrap.min.js",
+		"/C/Users/Alec/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/C/Users/Alec/AppData/Roaming/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/C/Users/Alec/AppData/Roaming/Sublime Text 3/Packages/User/Package Control.sublime-settings",
+		"/C/Users/Alec/Web/AlecAcres.ca/js/script.js"
+	],
+	"find":
+	{
+		"height": 25.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"piece[board",
+			"board",
+			"hexagon",
+			"square",
+			"tray",
+			"social",
+			"meta",
+			"board[",
+			"board",
+			"board[",
+			".piece.",
+			"color",
+			"clicked",
+			"isPathSquare",
+			"currentPath",
+			"wturn",
+			"wTurn",
+			"theme",
+			"bKing",
+			"398",
+			"true",
+			"\\(\\l, \\l",
+			"\\(\\l, \\l\\)",
+			"(x, y)",
+			"\\(\\d, \\d\\)",
+			"/d",
+			"console.log",
+			"path",
+			" path ",
+			"path",
+			"\"path\"",
+			"path",
+			"check",
+			"getelem",
+			"turn",
+			"check",
+			"emptyBoard",
+			"check",
+			"visualPath",
+			"currentPath",
+			"highlight",
+			"attackPaths",
+			"nothing here",
+			"wKing",
+			"wCheck",
+			"whiteCheck",
+			"whiteTurn",
+			"whiteCheck",
+			"color =",
+			"black",
+			"king",
+			"whitecheck"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"otstrap.min.css\" rel=\"stylesheet\">\n    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->\n    <!--[if lt IE 9]>\n      <script src=\"https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js\"></script>\n      <script src=\"https://oss.maxcdn.com/respond/1.4.2/respond.min.js\"></script>\n    <![endif]-->",
+			"square color",
+			"hexagon",
+			"social",
+			"icon",
+			"piece[board[",
+			"].",
+			"399",
+			"visualPath",
+			"wTurn"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 25.0
+	},
+	"input":
+	{
+		"height": 35.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "index.sublime-project",
+	"replace":
+	{
+		"height": 46.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"js",
+				"frames\\1\\scripts\\chess.js"
+			],
+			[
+				"style",
+				"frames\\1\\stylesheet\\stylesheet.css"
+			],
+			[
+				"index",
+				"frames\\1\\index.html"
+			],
+			[
+				"script",
+				"frames\\1\\scripts\\chess.js"
+			],
+			[
+				"inde",
+				"index.html"
+			],
+			[
+				"ch",
+				"C:\\Users\\Alec\\Web\\AlecAcres.ca\\frames\\1\\scripts\\chess.js"
+			],
+			[
+				"i",
+				"C:\\Users\\Alec\\Web\\AlecAcres.ca\\frames\\1\\index.html"
+			],
+			[
+				"ches",
+				"C:\\Users\\Alec\\Web\\AlecAcres.ca\\frames\\1\\scripts\\chess.js"
+			],
+			[
+				"che",
+				"C:\\Users\\Alec\\Web\\AlecAcres.ca\\frames\\1\\scripts\\chess.js"
+			],
+			[
+				"sty",
+				"C:\\Users\\Alec\\Web\\AlecAcres.ca\\frames\\1\\stylesheet\\stylesheet.css"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

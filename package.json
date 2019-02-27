@@ -1,0 +1,25 @@
+{
+  "name": "alecacres.ca",
+  "version": "1.0.0",
+  "description": "'A website for my portfolio and contact information",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Alec",
+    "Acres",
+    "Web",
+    "Website",
+    "Developer"
+  ],
+  "author": { 
+    "name": "Alec Acres",
+    "email": "d.alec.acres@gmail.com",
+  },
+  "dependencies": {
+    "bootstrap": "3.3.7",
+    "jquery": ">=2.1.4"
+  },
+  "license": "UNLICENSED"
+}
