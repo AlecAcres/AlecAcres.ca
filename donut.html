@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Spinning Donut in Javascript</title>
+	<style>
+		p {
+			font-family: courier;
+			text-align: center;
+			white-space: pre;
+			margin: 0;
+		}
+	</style>
+</head>
+<body>
+	<script>
+		let Y = new Array(22);
+		for (let X = 0; X < 22; X += 1) {
+			let p = document.createElement("p");
+			p.className = X;
+			Y[X] = p;
+			document.body.appendChild(p);
+		}
+		let A = 0;
+		let B = 0;
+		let i, j, k, q, r, s;
+		let z = new Array(1760);
+		let b = new Array(1760);
+
+		function step() {
+			b.fill(" ");
+			z.fill(0);
+			for(j = 0; j < 6.28; j += 0.07) {
+				for (i = 0; i < 6.28; i += 0.02) {
+					var c = Math.sin(i);
+					var d = Math.cos(j);
+					var e = Math.sin(A);
+					var f = Math.sin(j);
+					var g = Math.cos(A);
+					var h = d + 2;
+					var D = 1 / (c * h * e + f * g + 5);
+					var l = Math.cos(i);
+					var m = Math.cos(B);
+					var n = Math.sin(B);
+					var t = c * h * g - f * e;
+					var x = Math.round(40 + 30 * D * (l * h * m - t * n));
+					var y = Math.round(12 + 15 * D * (l * h * n + t * m));
+					var o = Math.round(x + 80 * y);
+					var N = Math.round(8 * ((f * e - c * d * g) * m - c * d * e - f * g - l * d * n));
+					if (22 > y && y > 0 && x > 0 && 80 > x && D > z[Math.round(o)]) {
+						z[o] = D;
+						b[o] = ".,-~:;=!*#$@".split("")[N > 0 ? N : 0];
+					} else {
+					}
+				}
+			}
+			for (k = 0; k < 22; k += 1) {
+				r = "";
+				for (q = 0; q < 80; q += 1) {
+					console.log(b[k * 80 + q]);
+					r += b[k * 80 + q];
+					A += 0.00004;
+					B += 0.00002;
+				}
+				Y[k].innerHTML = r;
+			}
+			window.requestAnimationFrame(step);
+		}
+		window.requestAnimationFrame(step);
+	</script>
+</body>
+</html>
